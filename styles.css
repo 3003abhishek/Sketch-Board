@@ -6,11 +6,32 @@
 }
 .hamberger{
     width: 4rem ; 
-    height : 4rem ;
+    height : 5rem ;
+    border-radius :35%;
+    border:1px solid black ;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:5rem; 
+    top:1rem;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.menu_btn{
-    width: 4rem ; 
-    height : 4rem ;
-    font:10rem; 
+.menu_list{
+    display: flex;
+    align-items: center;
+    gap :5rem; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position : absolute;
+    top : 1rem ;
+    left:12rem; 
+    padding :1rem 3rem; 
+    border-radius: 1rem; 
 }
+
+.image{
+    width :4rem;
+    height : 4rem; 
+}
+
